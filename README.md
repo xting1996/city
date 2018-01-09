@@ -29,7 +29,7 @@ if __name__ == '__main__':
     km = KMeans(n_clusters=3)  #人为指定分为几类
     label = km.fit_predict(data)
     expenses = np.sum(km.cluster_centers_,axis=1)
-    print(km.cluster_centers_) #这个是什么
+    print(km.cluster_centers_) #这个是什么,
 ```
 
     [[ 1559.73176471   477.77941176   317.49176471   224.31411765   237.32
@@ -49,7 +49,7 @@ for i in range(len(CityCluster)):
     print("Ecpense:%.2f"%expenses[i])
     print(CityCluster[i])
 ```
-
+> 结果
     Ecpense:5113.54
     ['天津', '江苏', '浙江', '福建', '湖南', '广西', '海南', '重庆', '四川', '云南', '西藏']
     Ecpense:7754.66
