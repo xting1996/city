@@ -49,7 +49,8 @@ for i in range(len(CityCluster)):
     print("Ecpense:%.2f"%expenses[i])
     print(CityCluster[i])
 ```
-> 结果
+> 结果  
+
     Ecpense:5113.54
     ['天津', '江苏', '浙江', '福建', '湖南', '广西', '海南', '重庆', '四川', '云南', '西藏']
     Ecpense:7754.66
